@@ -7,6 +7,7 @@ An example repository for learning how to make APIs.
 
 1. Blueprints
 2. Console
+3. GitHub sync
 
 ## NodeJS to build the API
 
