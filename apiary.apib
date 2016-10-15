@@ -33,7 +33,6 @@ This route defines the URIs to an individual task item.
 + Response 204
 
 ### Complete Single Task [PATCH]
-
 + Request (application/json)
     + Attributes
         + completed: 1476549921 (number) 
@@ -53,3 +52,20 @@ This route is the URI for the collection of all tasks.
 
 + Response 201 (application/json)
     + Attributes (Task)
+
+# Group Conveniences
+These are convenience services. All of this data should be gettable via RESTful endpoints. However there are often clientside perforance problems for dashboards and summary screens that need data from many different endpoints. Convenience services are an anti-pattern in RESTful design.
+
+## Progress [/progress/]
+
+### Get Progress [GET]
++ Response 200 (application/json)
+    + Attributes
+        + overall_incomplete_tasks: 20 (number)
+        + overall_median_time_to_complete: 86400 (number)
+        + weekly_progress (array)
+            + (object)
+                + weekly_created_tasks: 10 (number)
+                + weekly_completed_tasks: 8 (number)
+                + weekly_median_time_to_complete: 86400 (number)
+                + weekly_tasks (array[Task])
