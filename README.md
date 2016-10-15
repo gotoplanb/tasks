@@ -15,7 +15,8 @@ An example repository for learning how to make APIs.
 5. Create new task
 6. Connect to GitHub
 7. Delete a task
-8. Complete a task and other convenience routes
+8. Complete a task
+9. Get progress convenience service
 
 ### Console
 
