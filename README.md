@@ -5,9 +5,14 @@ An example repository for learning how to make APIs.
 
 ## Apiary to define an interface to the data
 
-1. Blueprints
-2. Console
-3. GitHub sync
+### Blueprints
+
+1. Create a group for tasks
+2. 
+
+### Console
+
+### GitHub sync
 
 ## NodeJS to build the API
 
