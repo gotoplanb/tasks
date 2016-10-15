@@ -1,4 +1,4 @@
-FORMAT: 1A
+easkFORMAT: 1A
 HOST: http://polls.apiblueprint.org/
 
 # Tasks
@@ -21,6 +21,13 @@ This route defines the URIs to an individual task item.
     + name: Buy coffee (string) - The friendly name for this task.
 
 ### Get Single Task [GET]
+
++ Response 200 (application/json)
+    + Attributes (Task)
+
+### Edit Single Task [PUT]
++ Request (application/json)
+    + Attributes (Task)
 
 + Response 200 (application/json)
     + Attributes (Task)
