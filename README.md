@@ -20,16 +20,23 @@ An example repository for learning how to make APIs.
     2. What are the negatives?
     3. Brainstorm ways to refactor to be more RESTful
 
-### More blueprint features
-1. Form-style query variables 
-2. Headers
-3. Atom plugin for rendering blueprints
-
 ### GitHub sync
 
 ## NodeJS to build the API
 
 ## Postman to manually test the API
+
+### More blueprint features
+1. Form-style query variables 
+    1. Show 50 tasks
+    2. Show 10 tasks sorted descending
+    3. Show 200 tasks
+    4. Show tasks 51-100 sorted descending
+2. Headers
+    1. Content-Type
+    2. Accept
+    3. Authorization
+3. Atom plugin for rendering blueprints
 
 ## CircleCI to build the API
 
