@@ -7,6 +7,7 @@ An example repository for learning how to make APIs.
 
 ### Blueprints
 
+1. What is RESTful design?
 1. Create a group for tasks
 2. Get single task
 3. Get all tasks
@@ -14,7 +15,7 @@ An example repository for learning how to make APIs.
 5. Create new task
 6. Connect to GitHub
 7. Delete a task
-8. Complete a task
+8. Complete a task and other convenience routes
 
 ### Console
 
