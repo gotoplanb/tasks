@@ -17,6 +17,10 @@ An example repository for learning how to make APIs.
 7. Delete a task
 8. Complete a task
 9. Get progress convenience service
+    1. What are the positives?
+    2. What are the negatives?
+    3. Brainstorm ways to refactor to be more RESTful
+10. Atom plugin for rendering blueprints
 
 ### Console
 
