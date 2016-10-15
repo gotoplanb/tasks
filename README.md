@@ -29,16 +29,18 @@ An example repository for learning how to make APIs.
 ### More blueprint features
 1. Backticks
 2. Data structures
-3. Form-style query variables 
+3. Inheritance
+4. Nesting
+5. Form-style query variables 
     1. Show 50 tasks
     2. Show 10 tasks sorted descending
     3. Show 200 tasks
     4. Show tasks 51-100 sorted descending
-4. Headers
+6. Headers
     1. Content-Type
     2. Accept
     3. Authorization
-5. Atom plugin for rendering blueprints
+7. Atom plugin for rendering blueprints
 
 ## CircleCI to build the API
 
