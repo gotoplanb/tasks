@@ -6,7 +6,6 @@ An example repository for learning how to make APIs.
 ## Apiary to define an interface to the data
 
 ### Blueprints
-
 1. What is RESTful design?
 1. Create a group for tasks
 2. Get single task
@@ -20,9 +19,11 @@ An example repository for learning how to make APIs.
     1. What are the positives?
     2. What are the negatives?
     3. Brainstorm ways to refactor to be more RESTful
-10. Atom plugin for rendering blueprints
 
-### Console
+### More blueprint features
+1. Form-style query variables 
+2. Headers
+3. Atom plugin for rendering blueprints
 
 ### GitHub sync
 
