@@ -1,0 +1,26 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Tasks
+
+An API to allow for the creation and completion of todo items.
+
+# Group Tasks
+
+This is a group for single todo items and collections of todos.
+
+## Task [/task/{id}]
+
+This route defines the URIs to an individual task item.
+
++ Parameters
+    + id (number, required) - The ID of the specific task.
+
++ Attributes
+    + id: 1 (number) - The unique identifier for this task.
+    + name: Buy coffee (string) - The friendly name for this task.
+
+### Get Single Task [GET]
+
++ Response 200 (application/json)
+    + Attributes (Task)
