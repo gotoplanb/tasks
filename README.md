@@ -27,16 +27,18 @@ An example repository for learning how to make APIs.
 ## Postman to manually test the API
 
 ### More blueprint features
-1. Form-style query variables 
+1. Backticks
+2. Data structures
+3. Form-style query variables 
     1. Show 50 tasks
     2. Show 10 tasks sorted descending
     3. Show 200 tasks
     4. Show tasks 51-100 sorted descending
-2. Headers
+4. Headers
     1. Content-Type
     2. Accept
     3. Authorization
-3. Atom plugin for rendering blueprints
+5. Atom plugin for rendering blueprints
 
 ## CircleCI to build the API
 
