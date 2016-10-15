@@ -13,8 +13,10 @@ This route defines the URIs to an individual task item.
     + id (number, required) - The ID of the specific task.
 
 + Attributes
-    + id: 1 (number, optional) - The unique identifier for this task.
+    + id: 1 (number) - The unique identifier for this task.
     + name: Buy coffee (string, required) - The friendly name for this task.
+    + created: 1476549721 (number, required) - The epoch time when this task was created.
+    + completed: 1476549921 (number, optional) - The epoch time when this task was completed.
 
 ### Get Single Task [GET]
 + Response 200 (application/json)
@@ -26,6 +28,17 @@ This route defines the URIs to an individual task item.
 
 + Response 200 (application/json)
     + Attributes (Task)
+
+### Delete Single Task [DELETE]
++ Response 204
+
+### Complete Single Task [PATCH]
+
++ Request (application/json)
+    + Attributes
+        + completed: 1476549921 (number) 
+
++ Response 204
 
 ## Tasks [/tasks/]
 This route is the URI for the collection of all tasks.
