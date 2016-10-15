@@ -8,7 +8,13 @@ An example repository for learning how to make APIs.
 ### Blueprints
 
 1. Create a group for tasks
-2. 
+2. Get single task
+3. Get all tasks
+4. Edit single task
+5. Create new task
+6. Connect to GitHub
+7. Delete a task
+8. Complete a task
 
 ### Console
 
